@@ -1,0 +1,17 @@
+.effect{
+    height: 500px;
+}
+
+.effect img{
+    transform-origin:  0 0;
+    transition: transform .25s, visibility .25s ease;
+}
+
+.effect:hover img{
+    transform: scale(1.1);
+}
+
+.inside{
+    margin: 5px;
+    overflow: hidden;
+}
