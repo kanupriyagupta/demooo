@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center-text{
+    position: absolute; 
+    top :50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.about_content{
+    background-image: -webkit-linear-gradient(110deg, #f2f3fa 0%, #fcfdff 100%);
+    background-image: -ms-linear-gradient(110deg, #f2f3fa 0%, #fcfdff 100%)
+}
+
+.heading p {
+    margin: 50px 60px 20px 60px;
+    font-weight: 800;
+    text-align: center;
+    color: #384158;
+    font-size: 30px;
+    -webkit-transition:all 200ms ease ;
+    transition: all 200ms ease;
+}
+
+.content p{
+    text-align: center;
+    color: #384158;
+    margin: 10px 50px;
+}
+
+.heading_content p {
+    margin: 50px 60px 20px 60px;
+    padding: 6px;
+    font-weight: 500;
+    text-align: center;
+    color: #384158;
+    font-size: 28px;
+    -webkit-transition:all 200ms ease ;
+    transition: all 200ms ease;
+  
+}
+/* 
+.line{
+    border-bottom: 2px solid #212736 ;
+    width: 200px;
+    transform: translate(-50%, -50%);
+    top:50%;
+    left:50%;
+    
+} */
+
+.card{
+	padding: 5px;
+	border: none;
+	margin-bottom:10px;
+}
+
+.card:hover{
+	box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    color: rgb(21, 37, 54);
+    background-color: #eff3fd;
+}
+
+.card .card-block{
+	padding-left: 50px;
+    position: relative;
+}
+
+.card .card-block a{
+	color: #007b5e;
+	font-weight:700;
+	text-decoration:none;
+}
+
+.card:hover .card-block a i{
+	display:inline-block;
+	font-weight:700;	
+}
+
+.card .card-block a i{
+	display:none;
+	
+}
+
+.color--heading {
+    color: #101f41 !important
+}
+
+.color--text {
+    color: #4f5464 !important
+}
+
+.gradient-light--lean-left {
+    background-image: -webkit-linear-gradient(110deg, #f2f3fa 0%, #fcfdff 100%);
+    background-image: -ms-linear-gradient(110deg, #f2f3fa 0%, #fcfdff 100%)
+}
+
+.badge-circle {
+    border-radius: 50%;
+    height: 2.5rem;
+    width: 2.5rem;
+    font-size: 1rem;
+    line-height: 2.5rem;
+    padding: 0
+}
+
+.text-white {
+    color: #fff!important;
+}
+
+
+.background--white,
+.bg-white {
+    background-color: #fff !important
+}
+
+.background--brand,
+.background--primary,
+.bg-brand,
+.bg-primary {
+    background-color: #4d5bed !important;
+    color: #fff
+}
+
+.background--dark,
+.bg-dark {
+    background: #0c2050 !important;
+    color: #939eb8
+}
+
+.background--secondary,
+.bg-secondary {
+    background-color: #939eb8 !important
+}
+
+.background--tertiary,
+.bg-tertiary {
+    background-color: #9779e3 !important
+}
+
+.background--danger,
+.bg-danger {
+    background-color: #f53d55 !important
+}
+
+.background--success,
+.bg-success {
+    background-color: #66df7c !important
+}
+
+.background--warning,
+.bg-warning {
+    background-color: #f6c460 !important
+}
+
+.background--warning2,
+.bg-warning2 {
+    background-color: #f89c59 !important
+}
+
+.background--info,
+.bg-info {
+    background-color: #52bbd3 !important
+}
+
+.background--light,
+.bg-light {
+    background-color: #f6f8fb !important
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color:#212736;
+  }
+  
+  .carousel-indicators li {
+    border-color: #212736;
+  }
+  
+  .carousel-indicators li.active {
+    background-color: #212736;
+  }
+  
+  .item h4 {
+    font-size: 19px;
+    font-weight: 400;
+    font-style: italic;
+    margin: 50px 0;
+  }
+  
+  .item span {
+    font-style: normal;
+  }
+
+.widget{ 
+    padding: 20px; 
+    margin-bottom: 40px;
+    }
+
+.start p{
+color: rgb(255, 255, 255);
+margin-bottom: 20px;
+}    
+
+.widget.no-box{ 
+    padding: 0;
+    background-color: transparent; 
+    margin-bottom: 40px;
+    box-shadow: none;
+    color: rgb(255, 255, 255);
+}
+
+.widget li a{ 
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px;
+    margin: 8px 0;
+}
+
+.widget li a:hover{ 
+    color: #14bdee;
+}
+
+.widget-title{
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.thumbnail-widget li{
+/* color: rgb(255, 255, 255); */
+list-style: none;
+}
+
+.display ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px;
+    font-size: 20px;
+}
+
+.contact_content{
+    background-color: #ebf3fd;
+}
+
