@@ -1,0 +1,78 @@
+.instraction{
+    display: flex;
+}
+
+
+.coln{
+    margin-right: 20px;
+}
+.instraction :first-child::before{
+    content: "\f138";
+    padding-right: 8px;
+    font-family: fontawesome;
+    font-size: large;
+    color: #3498db;
+
+}
+.indication div::before{
+    content: "\f138";
+    padding-right: 8px;
+    font-family: fontawesome;
+    font-size: large;
+    color: #3498db;
+}
+.card-header{
+    font-size: 22px;
+    font-weight: 600;
+    color: #384138;
+}
+.innner_div h2{
+    font-size: 26px;
+    color: #384158;
+    padding: 0;
+}
+.innner_div ul{
+    padding: 0;
+    margin: 0;
+}
+.innner_div li{
+    margin-left: 50px;
+    list-style: none;
+
+}
+
+.innner_div li label{
+    font-size: 20px;
+}
+input{
+    cursor: pointer;
+}
+#submit, .btm{
+    padding: 8px 20px;
+    outline: none;
+    font-size: 20px;
+    font-weight: 400;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #7eb1d3;
+    /* margin-top: 1rem; */
+    cursor: pointer;
+}
+#submit:hover{
+    background: #3498db;
+}
+#showscore{
+    margin-top: 1rem;
+    padding: 1rem 1rem;
+  
+}
+
+#showscore h3{ 
+    font-size: 2rem;
+    text-align: center;
+    margin: 10px;
+}
