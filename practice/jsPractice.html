@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <!-- <button id ="myBtn" onclick="valid()"> click</button>
+<script>
+    function valid(){
+        var a =10;
+        var b= 20;
+        var c = alert(a+b);
+    }
+</script> -->
+<!-- 
+<p id=txt>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, reiciendis.</p>
+<button id ="myBtn"> click me</button>
+<script>
+    document.getElementById("myBtn").onclick = function(){
+        // alert("thanks")
+        document.getElementById("txt").innerHTML="hello";
+    }
+</script> -->
+
+<button id="clickme" onclick="increment()"> click me: </button>
+<button  onclick="reset()">reset </button>
+<script>
+    var count=0;
+    function increment(){
+        count++;
+        document.getElementById("clickme").innerHTML ="click me : " + count;
+    }
+
+    function reset(){
+        count=0;
+        document.getElementById("clickme").innerHTML = "click me : " + count;
+    }
+</script>
+
+</body>
+</html>

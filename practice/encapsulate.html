@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        class Home {
+            constructor() {
+                var furniture;
+                var dining;
+            }
+            getFurniture() {
+                return this.furniture;
+            }
+            setFurniture(furniture) {
+                this.furniture = furniture;
+            }
+
+            getDining() {
+                return this.dining;
+            }
+            setDining(dining) {
+                this.dining = dining;
+            }
+
+        }
+
+        var h = new Home();
+        h.setFurniture(" Sofa ");
+        h.setDining(" plate ");
+        document.write(h.getFurniture() + " " + h.getDining());
+    </script>
+
+</body>
+
+</html>

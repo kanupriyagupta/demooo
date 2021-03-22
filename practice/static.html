@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        class Student {
+            constructor(id, name, phone) {
+                this.id = id;
+                this.name = name;
+                this.phone = phone;
+            }
+
+            // student(){
+            //     document.write(Student.display() + "<br>");
+            //     document.write(this.student.display());
+            // }
+
+            stud_detail() {
+                document.write(this.id + " " + this.name + " " + this.phone + " ")
+            }
+
+            // static display(){
+            //     return "static method is invoked"
+            // }
+        }
+
+        var s1 = new Student(1,"kanu",2340)
+        var s2 = new Student(2,"priya",5671)
+        // var s3 = new Student();
+        s1.stud_detail();
+        document.write(s2.id + " " + s2.name + " " + s2.phone + " ");
+    </script>
+
+</body>
+
+</html>

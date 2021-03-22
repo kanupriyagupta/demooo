@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validations</title>
+
+    <script>
+
+        function validate() {
+            let username = document.getElementById("uname");
+            let password = document.getElementById("pass");
+
+            if (username.value.trim() == "") {
+                alert("no blank username allowed");
+                return false;
+            }
+            else if (password.value.trim() == "") {
+                alert(" no blank password")
+                return false;
+            }
+
+            else if (password.value.trim().length(5)) {
+                alert("lenght less than 5")
+                return false;
+            }
+            else {
+                return true;
+            }
+        }
+
+    </script>
+</head>
+
+<body>
+    <form onsubmit="return validate()" action="message.html">
+        <input id="uname" placeholder="Username" type="text" />
+        <br>
+        <input id="pass" placeholder="Password" type="password" />
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
