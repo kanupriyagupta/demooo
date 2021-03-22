@@ -1,0 +1,38 @@
+.accordion_tab > label{
+    background: #ecf0f1;
+    display: block;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative;
+    padding: 12px 22px;
+    margin: 3px 0;
+}
+
+.accordion_tab > .accordion_toggle{
+display:none;
+}
+
+.accordion_tab > label:after{
+    content : "\f078";
+    font-family: fontawesome;
+    position: absolute;
+    top:10px;
+    right :10px;
+    transform: rotate(-90deg);
+    transition: transform .7s;
+}
+
+.accordion_tab > .accordion_toggle:checked ~ label:after{
+    transform :rotate(0deg);
+}
+
+.accordion_tab > .accordion_content{
+    background: #ecf0f1;
+    max-height: 0;
+    transition: all .4s;
+    overflow :hidden;
+}
+
+.accordion_tab > .accordion_toggle:checked ~ .accordion_content{
+    max-height: 100vh;
+}

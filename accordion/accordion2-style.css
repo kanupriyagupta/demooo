@@ -1,0 +1,32 @@
+.card{
+    width: 400px;
+    margin: 10px;
+    background-color: rgb(183, 196, 252);
+    background-blend-mode:hard-light;
+    box-shadow: 2px 1px rgb(130, 138, 182) ;
+}
+
+.card-header{
+   background-color: rgb(8, 32, 99);
+}
+
+.card-body {
+    width: 400px;
+    float: left;
+   
+}
+
+.right-body {   
+    width: 100px;
+    margin: 12px;
+    float: right;
+}
+
+img {
+    width: 90px;
+    height: 100px;
+}
+ 
+.btn{
+    border: none;
+}
